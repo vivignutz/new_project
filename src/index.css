@@ -26,17 +26,6 @@ hr {
     align-items: center;
 }
 
-.nav-logo {
-    font-size: 280%;
-    opacity: 1;
-}
-
-.nav-logo img {
-    float: left;
-    width: 100px;
-    height: 100px;
-}
-
 #topnav {
     display: flex;
     justify-content: space-evenly;
