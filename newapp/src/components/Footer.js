@@ -1,10 +1,9 @@
 // Footer.js
-import React from "react";
+import React, { Component } from 'react';
 
-class Footer extends React.Component {
+class Footer extends Component {
   render() {
-    const message = "© 2023 PodNagringa. All rights reserved.";
-
+    const message = "This is a footer under construction.";
     return (
       <footer>
         <h4>{message}</h4>

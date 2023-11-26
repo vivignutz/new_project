@@ -17,3 +17,10 @@ h3 {
 hr {
     color: #759b84;
 }
+
+/* Footer starts here */
+.footer {
+  padding: 10px;
+  background-color: #662C10;
+  color:#759b84;
+}

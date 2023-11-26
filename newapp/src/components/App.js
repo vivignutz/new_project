@@ -10,7 +10,7 @@ function App() {
     <main>       
       <Header />
 
-      {/* Carousel starts here */}        
+{/*       Carousel to be implemented
       <div id="productCarouselIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#productCarouselIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -20,19 +20,19 @@ function App() {
 
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src="./Images/caroussel1.jpg" className="d-block w-100" alt="image 1" />
+                    <img src="./images/caroussel1.jpg" className="d-block w-100" alt="image 1" />
                 </div>
             
                 <div className="carousel-item">
-                    <img src="./Images/caroussel2.png" className="d-block w-100" alt="image 2" />
+                    <img src="./images/caroussel2.png" className="d-block w-100" alt="image 2" />
                 </div>
             
                 <div className="carousel-item">
-                    <img src="./Images/caroussel4.jpg" className="d-block w-100" alt="image 3" />
+                    <img src="./images/caroussel4.jpg" className="d-block w-100" alt="image 3" />
                 </div>
             </div>
 
-            {/* <!-- Previous and Next Buttons --> */}
+            <!-- Previous and Next Buttons -->
             <a className="carousel-control-prev" href="#productCarouselIndicators" role="button" data-bs-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Previous</span>
@@ -45,7 +45,7 @@ function App() {
                 <span className="button-text">Next</span>
             </a>
         </div>
-
+ */}
             
         {/* <!-- Categories --> */}
         <div id="category-container">
@@ -54,7 +54,7 @@ function App() {
             <div className="category-grid">
                 <div className="card">
                     <a href="#">
-                        <img src="./Images/furniture.jpg" alt="furniture" className="product-img" />
+                        <img src="./images/furniture.jpg" alt="furniture" className="product-img" />
                     </a>
                     <div className="card-body pb-0">
                         <a href="#">
@@ -65,7 +65,7 @@ function App() {
 
                 <div className="card">
                     <a href="#">
-                        <img src="./Images/kitchen.jpg" alt="kitchen" className="product-img" />
+                        <img src="../kitchen.jpg" alt="kitchen" className="product-img" />
                     </a>
                     <div className="card-body pb-0">
                         <a href="#">
@@ -76,7 +76,7 @@ function App() {
 
                 <div className="card">
                     <a href="#">
-                        <img src="./Images/wc.jpg" alt="bathroom" className="product-img" />
+                        <img src="./images/wc.jpg" alt="bathroom" className="product-img" />
                     </a>
                     <div className="card-body pb-0">
                         <a href="#">
@@ -87,7 +87,7 @@ function App() {
 
                 <div className="card">
                     <a href="#">
-                        <img src="./Images/electronics.jpg" alt="electronics" className="product-img" />
+                        <img src="./images/electronics.jpg" alt="electronics" className="product-img" />
                     </a>
                     <div className="card-body pb-0">
                         <a href="#">
@@ -98,7 +98,7 @@ function App() {
 
                 <div className="card">
                     <a href="#">
-                        <img src="./Images/decor.jpg" alt="decor" className="product-img" />
+                        <img src="./images/decor.jpg" alt="decor" className="product-img" />
                     </a>
                     <div className="card-body pb-0">
                         <a href="#">
@@ -109,7 +109,7 @@ function App() {
 
                 <div className="card">
                     <a href="#">
-                        <img src="./Images/others.jpg" alt="others" className="product-img" />
+                        <img src="./images/others.jpg" alt="others" className="product-img" />
                     </a>
                     <div className="card-body pb-0">
                         <a href="#">
