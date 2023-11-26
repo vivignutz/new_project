@@ -4,6 +4,8 @@ import '../styles/App.css';
 import Header from './Header'; 
 import Form from './Form'; 
 import Footer from './Footer';
+import electronicsImage from '../images/electronics.jpg';
+import decorationImage from '../images/decoration.jpg';
 
 function App() {
   return (
@@ -48,46 +50,46 @@ function App() {
  */}
             
         {/* <!-- Categories --> */}
-        <div id="category-container">
+        <div id="category-container" className="category-container">
             <h3>Shop by category</h3>
             <hr />
             <div className="category-grid">
                 <div className="card">
                     <a href="#">
-                        <img src="./images/furniture.jpg" alt="furniture" className="product-img" />
+                        <img src={decorationImage} alt="decoration" className="product-img" />
                     </a>
                     <div className="card-body pb-0">
                         <a href="#">
-                            <h4 className="mb-0 product-link pb-3 secondary">Furniture</h4>
+                            <h4 className="mb-0 product-link pb-3 secondary">Decoration</h4>
                         </a>
                     </div>
                 </div>
 
                 <div className="card">
                     <a href="#">
-                        <img src="../kitchen.jpg" alt="kitchen" className="product-img" />
+                        <img src={electronicsImage} alt="electronics" className="product-img" />
                     </a>
                     <div className="card-body pb-0">
                         <a href="#">
-                            <h4 className="mb-0 product-link pb-3 secondary">Kitchen</h4>
+                            <h4 className="mb-0 product-link pb-3 secondary">Electronics</h4>
+                        </a>
+                    </div>
+                </div>
+                
+                <div className="card">
+                    <a href="#">
+                        <img src={decorationImage} alt="decoration" className="product-img" />
+                    </a>
+                    <div className="card-body pb-0">
+                        <a href="#">
+                            <h4 className="mb-0 product-link pb-3 secondary">Decoration</h4>
                         </a>
                     </div>
                 </div>
 
                 <div className="card">
                     <a href="#">
-                        <img src="./images/wc.jpg" alt="bathroom" className="product-img" />
-                    </a>
-                    <div className="card-body pb-0">
-                        <a href="#">
-                            <h4 className="mb-0 product-link pb-3 secondary">Bathroom</h4>
-                        </a>
-                    </div>
-                </div>
-
-                <div className="card">
-                    <a href="#">
-                        <img src="./images/electronics.jpg" alt="electronics" className="product-img" />
+                        <img src={electronicsImage} alt="electronics" className="product-img" />
                     </a>
                     <div className="card-body pb-0">
                         <a href="#">
@@ -98,25 +100,26 @@ function App() {
 
                 <div className="card">
                     <a href="#">
-                        <img src="./images/decor.jpg" alt="decor" className="product-img" />
+                        <img src={decorationImage} alt="decoration" className="product-img" />
                     </a>
                     <div className="card-body pb-0">
                         <a href="#">
-                            <h4 className="mb-0 product-link pb-3 secondary">Decor</h4>
+                            <h4 className="mb-0 product-link pb-3 secondary">Decoration</h4>
                         </a>
                     </div>
                 </div>
 
                 <div className="card">
                     <a href="#">
-                        <img src="./images/others.jpg" alt="others" className="product-img" />
+                        <img src={electronicsImage} alt="electronics" className="product-img" />
                     </a>
                     <div className="card-body pb-0">
                         <a href="#">
-                            <h4 className="mb-0 product-link pb-3 secondary">Others</h4>
+                            <h4 className="mb-0 product-link pb-3 secondary">Electronics</h4>
                         </a>
                     </div>
                 </div>
+
             </div>
         </div>
       <Form />  
