@@ -8,11 +8,11 @@ import electronicsImage from '../images/electronics.jpg';
 import decorationImage from '../images/decoration.jpg';
 
 function App() {
-  return (
+    return (
     <main>       
-      <Header />
+    <Header />
 
-{/*       Carousel to be implemented
+{/* Carousel to be implemented
       <div id="productCarouselIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#productCarouselIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -71,7 +71,7 @@ function App() {
                     </a>
                     <div className="card-body pb-0">
                         <a href="#">
-                            <h4 className="mb-0 product-link pb-3 secondary">Electronics</h4>
+                            <h4 classNambodyCe="mb-0 product-link pb-3 secondary">Electronics</h4>
                         </a>
                     </div>
                 </div>
@@ -122,10 +122,10 @@ function App() {
 
             </div>
         </div>
-      <Form />  
-      <Footer />
+        <Form />  
+        <Footer />
     </main>
-  );
+    );
 }
 
 export default App;

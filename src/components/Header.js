@@ -2,27 +2,35 @@
 import React from 'react';
 
 function Header() {
-  return (
-    <nav id="topnav">
-    <div className="nav-logo">
-        <a href="index.html">
-            <img className="nav-logo" src="./images/logo.png" alt="project-logo" />
-        </a>
-    </div>
+    return (
+        <nav id="topnav">
+            
+{/*   {/* Logo 
+            <div className="nav-logo">
+                <a href="index.html">
+                    <img src={logo} alt="project-logo" className='logo-img' />
+                </a>
+            </div> */}
 
-    <div className="nav-links">
-        <ul className="navbar-links">
-            <li className="nav-item">
-                <a href="#" className="active">Shop</a>
-            </li>
-            <li className="nav-item">
-                <a href="#" className="active">About</a>
-            </li>
-            <li className="nav-item">
-                <a href="./Contact/contact.html" className="active">Contact</a>
-            </li>
-        </ul>
-    </div>
+        {/* Navbar links */}
+        <div className="nav-links">
+            <ul className="navbar-links">
+                {/* Link "Shop" */}
+                <li className="nav-item">
+                    <a href="#" className="active">Shop</a>
+                </li>
+
+                {/* Link "About" */}
+                <li className="nav-item">
+                    <a href="#" className="active">About</a>
+                </li>
+
+                {/* Link "Form" */}
+                <li className="nav-item">
+                    <a href="./Form" className="active">Contact</a>
+                </li>
+            </ul>
+        </div>
 
 {/* <!-- Search Box (to me implemented): 
     <div>  
@@ -66,7 +74,7 @@ function Header() {
     </div>
 --> */}
     </nav>                
-  );
+    );
 }
 
 export default Header;
