@@ -1,7 +1,9 @@
-import './App.css';
-import Header from './components/Header';
-import Form from './components/Form';
-import Footer from './components/Footer';
+// src/components/App.js
+import React from 'react';
+import '../styles/App.css';
+import Header from './Header'; 
+import Form from './Form'; 
+import Footer from './Footer';
 
 function App() {
   return (
