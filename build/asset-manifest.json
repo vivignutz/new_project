@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.80d69df2.css",
+    "main.js": "/static/js/main.45b9fc05.js",
+    "static/js/787.b37fdd72.chunk.js": "/static/js/787.b37fdd72.chunk.js",
+    "static/media/decoration.jpg": "/static/media/decoration.a7e120e960d11b3f48bf.jpg",
+    "static/media/electronics.jpg": "/static/media/electronics.8ddd7867b15aa7a69a69.jpg",
+    "index.html": "/index.html",
+    "main.80d69df2.css.map": "/static/css/main.80d69df2.css.map",
+    "main.45b9fc05.js.map": "/static/js/main.45b9fc05.js.map",
+    "787.b37fdd72.chunk.js.map": "/static/js/787.b37fdd72.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80d69df2.css",
+    "static/js/main.45b9fc05.js"
+  ]
+}

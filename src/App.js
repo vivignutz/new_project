@@ -1,16 +1,17 @@
-// src/components/App.js
+// src/components/App.js/App.js
 import React from 'react';
-import '../styles/App.css';
-import Header from './Header'; 
-import Form from './Form'; 
-import Footer from './Footer';
-import electronicsImage from '../images/electronics.jpg';
-import decorationImage from '../images/decoration.jpg';
+import { Link } from 'react-router-dom';
+import './styles/App.css';
+import Header from './components/Header'; 
+import Form from './components/Form'; 
+import Footer from './components/Footer';
+import electronicsImage from './images/electronics.jpg';
+import decorationImage from './images/decoration.jpg';
 
 function App() {
     return (
     <main>       
-    <Header />
+        <Header />
             
         {/* <!-- Categories --> */}
         <div id="category-container" className="category-container">
@@ -18,71 +19,71 @@ function App() {
             <hr />
             <div className="category-grid">
                 <div className="card">
-                    <a href="#">
+                    <Link to="/decoration">
                         <img src={decorationImage} alt="decoration" className="product-img" />
-                    </a>
+                    </Link>
                     <div className="card-body pb-0">
-                        <a href="#">
+                        <Link to="/decoration">
                             <h4 className="mb-0 product-link pb-3 secondary">Decoration</h4>
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
                 <div className="card">
-                    <a href="#">
+                    <Link to="/electronics">
                         <img src={electronicsImage} alt="electronics" className="product-img" />
-                    </a>
+                    </Link>
                     <div className="card-body pb-0">
-                        <a href="#">
-                            <h4 classNambodyCe="mb-0 product-link pb-3 secondary">Electronics</h4>
-                        </a>
+                        <Link to="/electronics">
+                            <h4 className="mb-0 product-link pb-3 secondary">Electronics</h4>
+                        </Link>
                     </div>
                 </div>
                 
                 <div className="card">
-                    <a href="#">
+                    <Link to="/decoration">
                         <img src={decorationImage} alt="decoration" className="product-img" />
-                    </a>
+                    </Link>
                     <div className="card-body pb-0">
-                        <a href="#">
+                        <Link to="/decoration">
                             <h4 className="mb-0 product-link pb-3 secondary">Decoration</h4>
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
                 <div className="card">
-                    <a href="#">
+                    <Link to="/electronics">
                         <img src={electronicsImage} alt="electronics" className="product-img" />
-                    </a>
+                    </Link>
                     <div className="card-body pb-0">
-                        <a href="#">
+                        <Link to="/electronics">
                             <h4 className="mb-0 product-link pb-3 secondary">Electronics</h4>
-                        </a>
+                        </Link>
                     </div>
                 </div>
-
+                
                 <div className="card">
-                    <a href="#">
+                    <Link to="/decoration">
                         <img src={decorationImage} alt="decoration" className="product-img" />
-                    </a>
+                    </Link>
                     <div className="card-body pb-0">
-                        <a href="#">
+                        <Link to="/decoration">
                             <h4 className="mb-0 product-link pb-3 secondary">Decoration</h4>
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
                 <div className="card">
-                    <a href="#">
+                    <Link to="/electronics">
                         <img src={electronicsImage} alt="electronics" className="product-img" />
-                    </a>
+                    </Link>
                     <div className="card-body pb-0">
-                        <a href="#">
+                        <Link to="/electronics">
                             <h4 className="mb-0 product-link pb-3 secondary">Electronics</h4>
-                        </a>
+                        </Link>
                     </div>
                 </div>
-
+                
             </div>
         </div>
         <Form />  

@@ -48,6 +48,7 @@ hr {
 
 /* Contact form */
 .contact {
+    width:max-content;
     height: auto;
     margin-bottom: 30px;
     padding-left: 0.5em;
@@ -84,9 +85,9 @@ form {
 
 /* Footer starts here */
 footer {
-    background-color: #56462a;
+    background-color: #514f4d;
     color: #fff;
     padding: 20px;
     text-align: center;
-    width: fit-content;
+    width: max-content;
 }
