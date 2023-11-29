@@ -12,7 +12,7 @@ function App() {
     return (
     <main>       
     <Header />
-    <OtherComponent />npm <i class="fa fa-hourglass-start" aria-hidden="true"></i>
+    <OtherComponent />
             
         {/* <!-- Categories --> */}
         <div id="category-container" className="category-container">
