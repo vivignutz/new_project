@@ -1,6 +1,5 @@
 // src/components/App.js/App.js
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './styles/App.css';
 import Header from './components/Header'; 
 import Form from './components/Form'; 
@@ -11,7 +10,7 @@ import decorationImage from './images/decoration.jpg';
 function App() {
     return (
     <main>       
-        <Header />
+    <Header />
             
         {/* <!-- Categories --> */}
         <div id="category-container" className="category-container">
@@ -19,71 +18,70 @@ function App() {
             <hr />
             <div className="category-grid">
                 <div className="card">
-                    <Link to="/decoration">
+                    <a href="https://www.redi-school.org/">
                         <img src={decorationImage} alt="decoration" className="product-img" />
-                    </Link>
+                    </a>
                     <div className="card-body pb-0">
-                        <Link to="/decoration">
+                        <a href="https://www.redi-school.org/">
                             <h4 className="mb-0 product-link pb-3 secondary">Decoration</h4>
-                        </Link>
+                        </a>
                     </div>
                 </div>
 
                 <div className="card">
-                    <Link to="/electronics">
+                    <a href="https://www.redi-school.org/">
                         <img src={electronicsImage} alt="electronics" className="product-img" />
-                    </Link>
+                    </a>
                     <div className="card-body pb-0">
-                        <Link to="/electronics">
-                            <h4 className="mb-0 product-link pb-3 secondary">Electronics</h4>
-                        </Link>
+                        <a href="https://www.redi-school.org/">
+                            <h4 classNambody="mb-0 product-link pb-3 secondary">Electronics</h4>
+                        </a>
                     </div>
                 </div>
                 
                 <div className="card">
-                    <Link to="/decoration">
+                    <a href="https://www.redi-school.org/">
                         <img src={decorationImage} alt="decoration" className="product-img" />
-                    </Link>
+                    </a>
                     <div className="card-body pb-0">
-                        <Link to="/decoration">
+                        <a href="https://www.redi-school.org/">
                             <h4 className="mb-0 product-link pb-3 secondary">Decoration</h4>
-                        </Link>
+                        </a>
                     </div>
                 </div>
 
                 <div className="card">
-                    <Link to="/electronics">
+                    <a href="https://www.redi-school.org/">
                         <img src={electronicsImage} alt="electronics" className="product-img" />
-                    </Link>
+                    </a>
                     <div className="card-body pb-0">
-                        <Link to="/electronics">
+                        <a href="https://www.redi-school.org/">
                             <h4 className="mb-0 product-link pb-3 secondary">Electronics</h4>
-                        </Link>
-                    </div>
-                </div>
-                
-                <div className="card">
-                    <Link to="/decoration">
-                        <img src={decorationImage} alt="decoration" className="product-img" />
-                    </Link>
-                    <div className="card-body pb-0">
-                        <Link to="/decoration">
-                            <h4 className="mb-0 product-link pb-3 secondary">Decoration</h4>
-                        </Link>
+                        </a>
                     </div>
                 </div>
 
                 <div className="card">
-                    <Link to="/electronics">
-                        <img src={electronicsImage} alt="electronics" className="product-img" />
-                    </Link>
+                    <a href="https://www.redi-school.org/">
+                        <img src={decorationImage} alt="decoration" className="product-img" />
+                    </a>
                     <div className="card-body pb-0">
-                        <Link to="/electronics">
-                            <h4 className="mb-0 product-link pb-3 secondary">Electronics</h4>
-                        </Link>
+                        <a href="https://www.redi-school.org/">
+                            <h4 className="mb-0 product-link pb-3 secondary">Decoration</h4>
+                        </a>
                     </div>
                 </div>
-                
+
+                <div className="card">
+                    <a href="https://www.redi-school.org/">
+                        <img src={electronicsImage} alt="electronics" className="product-img" />
+                    </a>
+                    <div className="card-body pb-0">
+                        <a href="https://www.redi-school.org/">
+                            <h4 className="mb-0 product-link pb-3 secondary">Electronics</h4>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         <Form />  
