@@ -1,9 +1,10 @@
-// src/components/App.js/App.js
+// src/App.js
 import React from 'react';
 import './styles/App.css';
-import Header from './components/Header'; 
-import Form from './components/Form'; 
-import Footer from './components/Footer';
+import Header from './Header'; 
+import OtherComponent from './OtherComponent';
+import Form from './Form'; 
+import Footer from './Footer';
 import electronicsImage from './images/electronics.jpg';
 import decorationImage from './images/decoration.jpg';
 
@@ -11,6 +12,7 @@ function App() {
     return (
     <main>       
     <Header />
+    <OtherComponent />npm <i class="fa fa-hourglass-start" aria-hidden="true"></i>
             
         {/* <!-- Categories --> */}
         <div id="category-container" className="category-container">
